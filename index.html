@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
+<link rel="preconnect" href="https://www.gstatic.com" crossorigin>
+<link rel="dns-prefetch" href="//www.gstatic.com">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naisargik - প্রিমিয়াম অর্গানিক শপ</title>
@@ -186,7 +188,29 @@
         @keyframes scale { 0%, 100% { transform: none; } 50% { transform: scale3d(1.1, 1.1, 1); } }
         @keyframes fill { 100% { box-shadow: inset 0px 0px 0px 30px #dcfce7; } }
     </style>
+<script id="naisargik-meta-pixel">
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
+(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '28123609393948165');
+fbq('track', 'PageView');
+</script>
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link id="naisargik-canonical" rel="canonical" href="">
+<meta property="og:type" content="website">
+<meta id="naisargik-og-url" property="og:url" content="">
+<meta id="naisargik-og-title" property="og:title" content="">
+<meta id="naisargik-og-description" property="og:description" content="">
+<meta id="naisargik-og-image" property="og:image" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta id="naisargik-twitter-title" name="twitter:title" content="">
+<meta id="naisargik-twitter-description" name="twitter:description" content="">
+<meta id="naisargik-twitter-image" name="twitter:image" content="">
+<script id="naisargik-product-jsonld" type="application/ld+json">{}</script>
 </head>
+<!-- NAISARGIK FINAL BUILD | Meta Pixel ID: 28123609393948165 | Hosting rewrite: /product/* -> /index.html -->
 <body class="text-gray-800 min-h-screen flex flex-col relative">
 
     <!-- Global Loader Overlay -->
@@ -195,7 +219,7 @@
             <div class="absolute w-24 h-24 bg-primary/20 rounded-full animate-ping"></div>
             <div class="absolute w-32 h-32 bg-primary/10 rounded-full animate-pulse delay-150"></div>
             
-            <img id="loader-short-logo" src="" class="hidden relative w-20 h-20 object-contain animate-bounce drop-shadow-2xl rounded-2xl z-10" alt="Loading...">
+            <img id="loader-short-logo" src="" class="hidden relative w-20 h-20 object-contain animate-bounce drop-shadow-2xl rounded-2xl z-10" alt="Loading..." loading="lazy" decoding="async">
         </div>
         <p class="mt-8 text-gray-400 text-sm font-medium">প্রস্তুত হচ্ছে...</p>
     </div>
@@ -213,7 +237,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 md:py-4 flex justify-between items-center gap-4">
             
             <a href="#" onclick="window.scrollTo(0,0); return false;" class="flex items-center gap-2 sm:gap-3 cursor-pointer group shrink-0 min-h-[48px] sm:min-h-[64px]">
-                <img id="public-logo" src="" class="brand-logo hidden h-12 sm:h-16 md:h-20 lg:h-20 w-auto max-w-[200px] md:max-w-[300px] object-contain transition-transform group-hover:scale-105" alt="Logo">
+                <img id="public-logo" src="" class="brand-logo hidden h-12 sm:h-16 md:h-20 lg:h-20 w-auto max-w-[200px] md:max-w-[300px] object-contain transition-transform group-hover:scale-105" alt="Logo" loading="lazy" decoding="async">
             </a>
             
             <div class="hidden md:flex flex-1 max-w-xl relative group">
@@ -371,7 +395,7 @@
     <div id="product-details-page" class="fixed inset-0 z-[150] bg-white hidden overflow-y-auto transition-opacity duration-300 opacity-0 flex-col">
         <div class="sticky top-0 bg-white/95 backdrop-blur-md z-[60] border-b border-gray-100 px-4 py-3 flex items-center justify-between shadow-sm">
             <a href="#" onclick="window.closeProductModal(); return false;" class="flex items-center justify-center cursor-pointer group min-h-[32px] sm:min-h-[40px]" title="হোম পেইজে ফেরত যান">
-                <img id="modal-logo" src="" class="hidden h-8 sm:h-10 w-auto object-contain transition-transform group-hover:scale-105" alt="Logo">
+                <img id="modal-logo" src="" class="hidden h-8 sm:h-10 w-auto object-contain transition-transform group-hover:scale-105" alt="Logo" loading="lazy" decoding="async">
             </a>
 
             <button onclick="window.closeProductModal(true); window.openCart();" class="relative p-2 text-primary hover:bg-emerald-50 rounded-xl transition-all flex items-center justify-center w-10 h-10">
@@ -384,7 +408,7 @@
             <!-- Image Gallery Area -->
             <div class="w-full md:w-1/2 md:sticky md:top-24 h-max flex flex-col gap-3">
                 <div class="w-full aspect-square relative rounded-3xl overflow-hidden shadow-md bg-[#f8fafc] border border-gray-100 flex items-center justify-center group">
-                    <img id="modal-main-img" src="" alt="Product" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                    <img id="modal-main-img" src="" alt="Product" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" decoding="async">
                     
                     <button onclick="window.prevModalImage(event)" id="modal-img-prev" class="absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 md:w-10 md:h-10 bg-white/80 hover:bg-white rounded-full flex items-center justify-center shadow-md hidden z-10 text-gray-800 transition-all opacity-0 group-hover:opacity-100">
                         <i class="fa-solid fa-chevron-left"></i>
@@ -438,7 +462,7 @@
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8">
             <div class="space-y-6 relative">
                 <a href="#" onclick="window.scrollTo(0,0); return false;" class="flex items-center gap-3 cursor-pointer inline-block group">
-                    <img id="footer-logo" src="" class="hidden h-20 md:h-28 w-auto max-w-[250px] md:max-w-[300px] object-contain transition-transform group-hover:scale-105" alt="Logo">
+                    <img id="footer-logo" src="" class="hidden h-20 md:h-28 w-auto max-w-[250px] md:max-w-[300px] object-contain transition-transform group-hover:scale-105" alt="Logo" loading="lazy" decoding="async">
                     <div class="footer-brand-initial w-16 h-16 bg-primary text-white rounded-xl flex items-center justify-center font-bold text-3xl transition-transform group-hover:scale-105">N</div>
                     <span id="footer-brand-text" class="font-extrabold text-3xl md:text-4xl text-white tracking-tight">Naisargik</span>
                 </a>
@@ -615,21 +639,21 @@
                                 <label class="cursor-pointer">
                                     <input type="radio" name="client_mfs_gateway" value="bKash" class="peer sr-only" checked onchange="window.switchClientMfsGateway()">
                                     <div class="border-2 border-gray-200 rounded-xl p-2 h-full flex flex-col items-center justify-center gap-1.5 peer-checked:border-[#e2136e] peer-checked:bg-pink-50 hover:bg-gray-50 transition-all shadow-sm bg-white">
-                                        <img src="https://freelogopng.com/images/all_img/1656234841bkash-icon-png.png" alt="bKash" class="w-7 h-7 object-contain">
+                                        <img src="https://freelogopng.com/images/all_img/1656234841bkash-icon-png.png" alt="bKash" class="w-7 h-7 object-contain" loading="lazy" decoding="async">
                                         <span class="text-[11px] font-bold text-gray-700">বিকাশ</span>
                                     </div>
                                 </label>
                                 <label class="cursor-pointer">
                                     <input type="radio" name="client_mfs_gateway" value="Nagad" class="peer sr-only" onchange="window.switchClientMfsGateway()">
                                     <div class="border-2 border-gray-200 rounded-xl p-2 h-full flex flex-col items-center justify-center gap-1.5 peer-checked:border-[#f7941d] peer-checked:bg-orange-50 hover:bg-gray-50 transition-all shadow-sm bg-white">
-                                        <img src="https://freelogopng.com/images/all_img/1679248787Nagad-Logo.png" alt="Nagad" class="w-12 h-7 object-contain">
+                                        <img src="https://freelogopng.com/images/all_img/1679248787Nagad-Logo.png" alt="Nagad" class="w-12 h-7 object-contain" loading="lazy" decoding="async">
                                         <span class="text-[11px] font-bold text-gray-700">নগদ</span>
                                     </div>
                                 </label>
                                 <label class="cursor-pointer">
                                     <input type="radio" name="client_mfs_gateway" value="Rocket" class="peer sr-only" onchange="window.switchClientMfsGateway()">
                                     <div class="border-2 border-gray-200 rounded-xl p-2 h-full flex flex-col items-center justify-center gap-1.5 peer-checked:border-[#8c1596] peer-checked:bg-purple-50 hover:bg-gray-50 transition-all shadow-sm bg-white">
-                                        <img src="https://seeklogo.com/images/R/rocket-logo-B4D1EA45E5-seeklogo.com.png" alt="Rocket" class="w-7 h-7 object-contain" onerror="this.outerHTML='<i class=\'fa-solid fa-rocket text-[#8c1596] text-2xl\'></i>'">
+                                        <img src="https://seeklogo.com/images/R/rocket-logo-B4D1EA45E5-seeklogo.com.png" alt="Rocket" class="w-7 h-7 object-contain" onerror="this.outerHTML='<i class=\'fa-solid fa-rocket text-[#8c1596] text-2xl\' loading="lazy" decoding="async"></i>'">
                                         <span class="text-[11px] font-bold text-gray-700">রকেট</span>
                                     </div>
                                 </label>
@@ -818,7 +842,7 @@
                 <!-- NEW: Dynamic Image Preview Panel -->
                 <div id="chat-image-preview-container" class="hidden px-4 py-2 bg-emerald-50 border-t border-gray-200 items-center gap-3 shrink-0 relative">
                      <div class="relative w-12 h-12 rounded-lg overflow-hidden border border-gray-200 shrink-0 bg-white">
-                         <img id="chat-preview-img" src="" class="w-full h-full object-cover">
+                         <img id="chat-preview-img" src="" class="w-full h-full object-cover" loading="lazy" decoding="async">
                          <button type="button" onclick="window.removeChatPreviewImage()" class="absolute top-0 right-0 bg-black/60 text-white rounded-full p-0.5 hover:bg-black transition-colors shadow flex items-center justify-center">
                              <i class="fa-solid fa-xmark text-[10px]"></i>
                          </button>
@@ -1281,7 +1305,7 @@
             homepageData.sliderImages.forEach((img, idx) => {
                 const slide = document.createElement('div');
                 slide.className = `slide-item absolute inset-0 w-full h-full ${idx === currentSlide ? 'active' : ''}`;
-                slide.innerHTML = `<img src="${img}" alt="Banner" class="w-full h-full object-cover">`;
+                slide.innerHTML = `<img src="${img}" alt="Banner" class="w-full h-full object-cover" loading="lazy" decoding="async">`;
                 track.appendChild(slide);
 
                 const dot = document.createElement('button');
@@ -1316,7 +1340,7 @@
                 homepageData.featuredCategories.forEach(cat => {
                     let imgHtml = '';
                     if(cat.image && cat.image.startsWith('http')) {
-                        imgHtml = `<img src="${cat.image}" class="w-full h-full object-cover rounded-full" alt="${cat.name}">`;
+                        imgHtml = `<img src="${cat.image}" class="w-full h-full object-cover rounded-full" alt="${cat.name}" loading="lazy" decoding="async">`;
                     } else {
                         imgHtml = `<i class="${cat.image || 'fa-solid fa-leaf'} text-2xl md:text-3xl text-emerald-600 group-hover:text-white transition-colors"></i>`;
                     }
@@ -1434,7 +1458,105 @@
             renderPublicProducts();
         }
 
-        function renderPublicProducts() {
+        
+const NAISARGIK_SITE_ORIGIN = window.location.origin;
+const NAISARGIK_SITE_NAME = 'Naisargik';
+
+function naisargikProductSlug(p) {
+    if (p && p.slug) return String(p.slug).trim().toLowerCase();
+    return String((p && p.name) || (p && p.id) || 'product')
+      .normalize('NFKD').replace(/[\u0300-\u036f]/g,'')
+      .replace(/[^\w\u0980-\u09ff]+/g,'-').replace(/^-+|-+$/g,'') || String(p.id);
+}
+function naisargikProductUrl(p) {
+    return NAISARGIK_SITE_ORIGIN + '/product/' + encodeURIComponent(naisargikProductSlug(p));
+}
+function naisargikProductPrice(p) {
+    const n = Number(p && p.price);
+    if (Number.isFinite(n)) return n;
+    const a = (Array.isArray(p && p.variants) ? p.variants : [])
+      .map(v=>Number(v.price)).filter(Number.isFinite);
+    return a.length ? Math.min(...a) : 0;
+}
+function naisargikProductImage(p) {
+    return (p && Array.isArray(p.imageUrls) && p.imageUrls[0]) || (p && p.imageUrl) || '';
+}
+function naisargikApplyProductSEO(p) {
+    if (!p) return;
+    const name = p.name || 'Product';
+    const desc = String(p.shortDescription || p.description || name)
+      .replace(/<[^>]*>/g,'').replace(/\s+/g,' ').trim().slice(0,300);
+    const url = naisargikProductUrl(p), image = naisargikProductImage(p);
+    document.title = name + ' | ' + NAISARGIK_SITE_NAME;
+    const set=(id,a,v)=>{const e=document.getElementById(id);if(e)e.setAttribute(a,v||'');};
+    set('naisargik-canonical','href',url);
+    set('naisargik-og-url','content',url);
+    set('naisargik-og-title','content',name);
+    set('naisargik-og-description','content',desc);
+    set('naisargik-og-image','content',image);
+    set('naisargik-twitter-title','content',name);
+    set('naisargik-twitter-description','content',desc);
+    set('naisargik-twitter-image','content',image);
+    const schema={
+      "@context":"https://schema.org","@type":"Product","name":name,"url":url,
+      "description":desc,"image":image?[image]:[],"sku":String(p.sku||p.id||''),
+      "brand":{"@type":"Brand","name":p.brand||NAISARGIK_SITE_NAME},
+      "offers":{"@type":"Offer","url":url,"priceCurrency":p.currency||"BDT",
+      "price":String(naisargikProductPrice(p)),
+      "availability":(p.stock===0||p.stock==='0'||p.available===false)?
+      "https://schema.org/OutOfStock":"https://schema.org/InStock"}
+    };
+    if(p.rating||p.ratingValue) schema.aggregateRating={
+      "@type":"AggregateRating","ratingValue":String(p.rating||p.ratingValue),
+      "reviewCount":String(p.reviewCount||p.reviewsCount||1)
+    };
+    const ld=document.getElementById('naisargik-product-jsonld');
+    if(ld)ld.textContent=JSON.stringify(schema);
+}
+function naisargikClearProductSEO(){
+    document.title=NAISARGIK_SITE_NAME;
+    const c=document.getElementById('naisargik-canonical');
+    if(c)c.href=NAISARGIK_SITE_ORIGIN+window.location.pathname;
+    const ld=document.getElementById('naisargik-product-jsonld');
+    if(ld)ld.textContent='{}';
+}
+function naisargikMetaTrack(eventName,params){
+    try{if(typeof window.fbq==='function')window.fbq('track',eventName,params||{});}catch(e){}
+}
+window.NaisargikAds={
+  viewContent:function(p){
+    if(!p)return;
+    naisargikMetaTrack('ViewContent',{
+      content_ids:[String(p.sku||p.id)],content_name:p.name||'',content_type:'product',
+      value:naisargikProductPrice(p),currency:p.currency||'BDT'
+    });
+  },
+  addToCart:function(p,q,value){
+    if(!p)return;
+    naisargikMetaTrack('AddToCart',{
+      content_ids:[String(p.sku||p.id)],content_name:p.name||'',content_type:'product',
+      value:value!=null?Number(value):naisargikProductPrice(p)*Number(q||1),currency:p.currency||'BDT'
+    });
+  },
+  initiateCheckout:function(items,total){
+    items=Array.isArray(items)?items:[];
+    naisargikMetaTrack('InitiateCheckout',{
+      content_ids:items.map(x=>String(x.sku||x.id)),content_type:'product',
+      num_items:items.reduce((n,x)=>n+Number(x.quantity||1),0),
+      value:Number(total||0),currency:'BDT'
+    });
+  },
+  purchase:function(items,total,orderId){
+    items=Array.isArray(items)?items:[];
+    naisargikMetaTrack('Purchase',{
+      content_ids:items.map(x=>String(x.sku||x.id)),content_type:'product',
+      num_items:items.reduce((n,x)=>n+Number(x.quantity||1),0),
+      value:Number(total||0),currency:'BDT',order_id:orderId||undefined
+    });
+  }
+};
+
+function renderPublicProducts() {
             const container = document.getElementById('public-products-container');
             const subtitle = document.getElementById('product-section-subtitle');
             if(!container) return;
@@ -1486,7 +1608,7 @@
                         ${isOutOfStock ? `<div class="absolute top-2 md:top-3 left-2 md:left-3 bg-red-600/90 backdrop-blur text-white text-[9px] md:text-[10px] font-black px-2 py-1 md:px-3 md:py-1.5 rounded-full z-10 shadow-sm uppercase">স্টক শেষ</div>` : ''}
                         
                         <div class="relative aspect-square w-full bg-[#f8fafc] group-hover:bg-[#f1f5f9] transition-colors flex items-center justify-center overflow-hidden">
-                            <img src="${imgUrl}" alt="${product.name}" class="product-img w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.src='https://placehold.co/400x400/e2e8f0/64748b?text=Product'">
+                            <img src="${imgUrl}" alt="${product.name}" class="product-img w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.src='https://placehold.co/400x400/e2e8f0/64748b?text=Product'" loading="lazy" decoding="async">
                             <div class="absolute inset-0 bg-black/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                         </div>
 
@@ -1556,6 +1678,8 @@
             const product = allProducts.find(p => p.id === id);
             if(!product) return;
             currentModalProduct = product;
+            naisargikApplyProductSEO(product);
+            window.NaisargikAds.viewContent(product);
             
             // Hide Chat Widget strictly on Product View
             const chatWidget = document.getElementById('live-chat-widget');
@@ -1625,7 +1749,7 @@
             setTimeout(() => {
                 document.getElementById('product-details-page').classList.add('opacity-100');
             }, 10);
-            if(!fromHash) safePushState('#product-' + id);
+            if(!fromHash) window.history.pushState({}, '', naisargikProductUrl(product));
         };
 
         window.closeProductModal = function(removeHash = false) {
@@ -1659,7 +1783,7 @@
                 thumbnailsContainer.classList.remove('hidden');
                 thumbnailsContainer.innerHTML = currentModalImages.map((img, idx) => `
                     <div onclick="window.changeModalImage(${idx})" class="w-16 h-16 sm:w-20 sm:h-20 shrink-0 rounded-xl overflow-hidden border-2 cursor-pointer transition-colors ${idx === currentImageIndex ? 'border-primary' : 'border-transparent hover:border-emerald-200'}">
-                        <img src="${img}" class="w-full h-full object-cover">
+                        <img src="${img}" class="w-full h-full object-cover" loading="lazy" decoding="async">
                     </div>
                 `).join('');
             } else {
@@ -1765,7 +1889,7 @@
                         <div class="bg-white p-3 rounded-2xl border border-gray-100 shadow-sm flex gap-3 relative group">
                             <button onclick="window.removeCartItem('${item.cartItemId}')" class="absolute -top-2 -right-2 w-6 h-6 bg-white border border-gray-200 hover:border-red-500 hover:bg-red-50 hover:text-red-500 text-gray-400 rounded-full flex items-center justify-center text-[10px] transition-all shadow-sm opacity-0 group-hover:opacity-100 focus:opacity-100 z-10"><i class="fa-solid fa-xmark"></i></button>
                             <div class="w-16 h-16 bg-gray-50 rounded-xl overflow-hidden shrink-0 border border-gray-100">
-                                <img src="${imgUrl}" class="w-full h-full object-cover">
+                                <img src="${imgUrl}" class="w-full h-full object-cover" loading="lazy" decoding="async">
                             </div>
                             <div class="flex-1 flex flex-col justify-between">
                                 <div>
@@ -2182,7 +2306,7 @@
                 
                 let imgHtml = '';
                 if(msg.imageUrl) {
-                    imgHtml = `<a href="${msg.imageUrl}" target="_blank"><img src="${msg.imageUrl}" class="w-full max-w-[180px] sm:max-w-[220px] rounded-lg mb-1.5 object-cover border ${isUser ? 'border-emerald-600' : 'border-gray-200'} cursor-pointer hover:opacity-90 transition-opacity"></a>`;
+                    imgHtml = `<a href="${msg.imageUrl}" target="_blank"><img src="${msg.imageUrl}" class="w-full max-w-[180px] sm:max-w-[220px] rounded-lg mb-1.5 object-cover border ${isUser ? 'border-emerald-600' : 'border-gray-200'} cursor-pointer hover:opacity-90 transition-opacity" loading="lazy" decoding="async"></a>`;
                 }
 
                 const msgHtml = `
@@ -2268,5 +2392,18 @@
             });
         });
     </script>
+<script id="naisargik-popstate-handler">
+window.addEventListener('popstate',function(){
+  const m=window.location.pathname.match(/^\/product\/([^\/?#]+)/i);
+  if(!m){if(typeof naisargikClearProductSEO==='function')naisargikClearProductSEO();return;}
+  const slug=decodeURIComponent(m[1]);
+  const list=Array.isArray(window.allProducts)?window.allProducts:[];
+  const p=list.find(x=>naisargikProductSlug(x)===slug||String(x.id)===slug);
+  if(p&&typeof openProductModal==='function'){
+    naisargikApplyProductSEO(p);
+    openProductModal(p.id,true);
+  }
+});
+</script>
 </body>
 </html>
